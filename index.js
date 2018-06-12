@@ -163,4 +163,4 @@ bot.on('message', msg => {
 }
 });
 
-bot.login(botsettings.token);
+bot.login(process.env.BOT_TOKEN);
